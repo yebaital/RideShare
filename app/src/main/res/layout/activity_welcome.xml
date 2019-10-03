@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".WelcomeActivity">
+
+    <Button
+        android:id="@+id/driver_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp"
+        android:background="@android:color/background_light"
+        android:padding="10dp"
+        android:text="@string/driver" />
+
+    <Button
+        android:id="@+id/customer_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/driver_button"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/background_light"
+        android:padding="10dp"
+        android:text="@string/customer" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_above="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/taxi"
+        android:tint="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/driver_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/app_name"
+        android:textColor="@color/colorAccent"
+        android:textSize="48sp" />
+
+</RelativeLayout>

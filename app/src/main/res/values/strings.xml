@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RideShare</string>
+    <string name="driver">I am a driver</string>
+    <string name="customer">I am a customer</string>
+    <string name="driver_login">Driver Login</string>
+    <string name="customer_login">Customer Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="register_prompt">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="login_prompt">Have an account?</string>
+    <string name="driver_registration">Driver Registration</string>
+    <string name="customer_registration">Customer Registration</string>
+    <string name="title_activity_drivers_map">Map</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_customers_map">Map</string>
+    <string name="request_ride">Request Ride</string>
+    <string name="checking_drivers">Checking for nearby drivers...</string>
+    <string name="getting_driver_location">Getting driver location...</string>
+    <string name="driver_found">Driver Found!</string>
+    <string name="driver_arrived">Driver Arrived</string>
+</resources>
